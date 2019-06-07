@@ -1,0 +1,58 @@
+{
+    "name": "node-winston-logging",
+    "version": "0.0.1",
+    "description": "Node.js Winston Logging - Pre-Config Logging library using node.js, winston.js.",
+    "main": "index.js",
+    "scripts": {
+        "compile": "grunt compile",
+        "test": "grunt test",
+        "dev": "grunt dev",
+        "prod": "grunt prod",
+        "deploy": "grunt deploy"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/salespaulo/node-winston-logging.git"
+    },
+    "keywords": [
+        "node",
+        "nodejs",
+        "winston",
+        "winstonjs",
+        "logging",
+        "log"
+    ],
+    "author": "Paulo R. A. Sales",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/salespaulo/node-winston-logging/issues"
+    },
+    "homepage": "https://github.com/salespaulo/node-winston-logging#readme",
+    "dependencies": {
+        "node-config-utils": "0.0.3",
+        "uuid": "*",
+        "config": "*",
+        "winston": "*",
+        "morgan": "*"
+    },
+    "devDependencies": {
+        "path": "*",
+        "chai": "*",
+        "chai-http": "*",
+        "mocha": "*",
+        "nodemon": "*",
+        "standard": "*",
+        "load-grunt-tasks": "*",
+        "grunt": "*",
+        "grunt-env": "*",
+        "grunt-shell": "*",
+        "grunt-notify": "*",
+        "grunt-nodemon": "*",
+        "grunt-concurrent": "*",
+        "grunt-mocha-test": "*",
+        "grunt-contrib-clean": "*",
+        "grunt-contrib-copy": "*",
+        "grunt-contrib-watch": "*",
+        "grunt-contrib-compress": "*"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "logger": {
+        "console": {
+            "level": "info"
+        },
+        "file": {
+            "level": "info",
+            "path": "./app-logging.log"
+        },
+        "elasticsearch": {
+            "indexPrefix": "app-logging"
+        }
+    }
+}
