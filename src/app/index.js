@@ -2,6 +2,6 @@
  * Library
  * @author Paulo R. A. Sales
  */
-const logger = require('./log')
+const logger = require("./log");
 
-module.exports = logger
+module.exports = logger;
